@@ -1,0 +1,12 @@
+div{
+    margin: 20px;
+    width: 600px;
+    box-sizing: border-box;
+}
+.satu{
+    background-color: cornflowerblue;
+    padding: 80px;
+}
+.dua{
+    background-color: darkslateblue;
+}
