@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .satu{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+        }
+        div{
+            border: 1px solid tomato;
+            width: 1100px;
+        }
+        .container:hover .satu{
+            margin-left: 900px;
+            transform: rotate(180deg);
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Web HTML Versi 2</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(double-bubble.png);
+        font-family: 'Dancing Script', cursive;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .container{
+        margin: auto;
+        width: 800px;
+        background-color: cadetblue;
+    }
+    .header{
+        background-color: burlywood;
+        padding: 12px ;
+    }
+    .judul{
+        text-shadow: 2px 2px tomato;
+    }
+    .judul:hover{
+        transform: scaleY(1.2);
+        transition: 2s;
+    }
+    ul{
+        list-style: none;
+        background-color: rgba(196, 155, 93, 0.781);
+        height: 40px;
+    }
+    ul li{
+        margin-top: 9px;
+        padding: 0 12px;
+        display: inline-block;  
+    }
+    ul li:hover{
+        transform: scale(1.2);
+        transition: 2s;
+    }
+    ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content{
+        margin: 12px;
+        font-size: 16px;
+    }
+    .content:hover{
+        border-radius: 10px;
+        padding: 10px;
+        transform: scale(1.2);
+        transition: 2s;
+        background-color: blueviolet;
+        
+    }
+    .image{
+        height: 200px;
+        background-image: url(background.jpg);
+        background-size: cover;
+        
+    }
+    .image:hover{
+        border-radius: 10px;
+        transition: 1s;
+        transform: scale(1.2);
+        box-shadow: 4px 4px 8px tomato;
+    }
+    .footer{
+        height: 40px;
+        background-color: crimson;
+        text-align: center;
+    }
+    .foot{
+        padding: 10px;
+    }
+    .foot:hover{
+        transform: rotate(360deg) scale(1.2);
+        transition: 2s;
+    }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="judul">
+                Desain Web
+            </h1>
+        </div>
+        <div class="navigasi">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="image"></div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus harum numquam quibusdam fuga dolores, quaerat necessitatibus consequatur soluta consequuntur ex suscipit placeat aperiam recusandae nam! Nostrum quidem iste vero atque libero molestias, distinctio voluptatum dolorem voluptas, harum consectetur. Sequi, accusantium laborum dolores recusandae iure aut iste consequatur adipisci tenetur beatae iusto quod vel optio dicta expedita minus delectus laboriosam quibusdam dignissimos dolore. Aperiam cum impedit, dignissimos officia a laboriosam? Laboriosam magnam dolor voluptate. Maiores dolor quo veniam suscipit est magnam harum ab? Necessitatibus quia velit voluptates neque suscipit?</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus dolorem, optio repellendus quo molestiae vel pariatur rerum suscipit! In minus recusandae reprehenderit culpa incidunt sequi accusamus laboriosam molestias error praesentium, labore assumenda cum quaerat iusto voluptatibus earum, blanditiis deleniti commodi distinctio ratione cupiditate. Autem, tempora et? Nobis eius unde totam nam, iste incidunt nemo? Rerum, neque assumenda aliquam ad ut adipisci consequatur odit dolorem velit. Inventore incidunt repudiandae velit nam at magnam eligendi voluptatibus, nobis blanditiis necessitatibus odio dolorem eum ipsa asperiores itaque repellat quia facilis quisquam?</p>
+        </div>
+        <div class="footer">
+            <p class="foot">Copyright By Aji Setjai @2020</p>
+        </div>
+    </div>
+</body>
+</html>
